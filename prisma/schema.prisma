@@ -14,7 +14,7 @@ datasource db {
   directUrl = env("DIRECT_URL")
 }
 
-model TestProfile {
+model product {
   id          String     @id @default(uuid())
   name        String
   company     String
